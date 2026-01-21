@@ -261,6 +261,7 @@ h1, h2, h3, h4 {
     background-color: white;
 }
 
+
 .benefits h2 {
     text-align: center;
     font-size: 2rem;
@@ -280,8 +281,16 @@ h1, h2, h3, h4 {
     padding: 1.5rem;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
 }
-    
+
+.benefit:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(76, 175, 80, 0.25);
+}
 
 .benefit h3 {
     display: flex;
