@@ -231,6 +231,12 @@ h1, h2, h3, h4 {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
 }
 
+.step:hover {
+    background-color: #f0f9f4;
+    border-top-color: #95d5b2;
+    transform: translateY(-5px);
+}
+
 .step-number {
     display: inline-flex;
     align-items: center;
@@ -270,6 +276,7 @@ h1, h2, h3, h4 {
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
 }
+    
 
 .benefit h3 {
     display: flex;
