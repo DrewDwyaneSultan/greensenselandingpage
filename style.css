@@ -228,7 +228,12 @@ h1, h2, h3, h4 {
     padding: 1.5rem;
     background: white;
     border-radius: 10px;
+    border-top: 4px solid transparent;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    transition: 
+        transform 0.3s ease, 
+        border-top-color 0.3s ease, 
+        background-color 0.3s ease; 
 }
 
 .step:hover {
